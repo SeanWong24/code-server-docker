@@ -1,6 +1,6 @@
 from ubuntu
 
-RUN apt update && apt install wget curl -y
+RUN apt update && apt install wget curl libicu-dev -y
 RUN curl -fsSL https://deb.nodesource.com/setup_lts.x | bash -
 RUN apt install nodejs -y
 
